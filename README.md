@@ -11,13 +11,13 @@
 - [⚙️ Setup and Installation](#setup-and-installation)
 - [📜 License](#license)
 
-## 📄 Project Description
+## Project Description
 
 This project involves building a highly available and scalable data pipeline on AWS to fetch raw data from the Steam API, transform it, and store it in a database. The processed data is then loaded into AWS Athena for analysis. The project uses a variety of AWS services to ensure efficiency, scalability, and reliability.
 
 This data pipeline is a crucial component of another project, [GoodCase](https://github.com/GlZM0/GoodCase), which is a CS gambling website built using Svelte and SvelteKit. The data is processed and uploaded to MongoDB Atlas daily because the data pipeline operates as a batch application.
 
-## 🏛️ Architecture
+## Architecture
 
 ### Components:
 - **Data Sources:** The Steam API provides the raw data.
@@ -27,7 +27,7 @@ This data pipeline is a crucial component of another project, [GoodCase](https:/
 - **Storage Layer:** Update of the MongoDB Atlas (US Availability Zone) by the transformed data.
 - **Availability:** The API is deployed in one Availability Zone in Europe for high availability.
 
-## 🔄 Data Pipeline
+## Data Pipeline
 
 ![Architecture Diagram](Project_Architecture.png)
 
@@ -38,7 +38,7 @@ This data pipeline is a crucial component of another project, [GoodCase](https:/
 - [ ]  **Data Loading:** The transformed data is uploaded to MongoDB Atlas. MongoDB Atlas is located in a US Availability Zone to support the GoodCase website.
 - [ ]  **Data Analysis:** The data stored in Amazon S3 is loaded into AWS Athena for efficient querying and analysis.
 
-## 🛠️ Technologies
+## Technologies
 
 ### Technologies Used:
 
@@ -49,13 +49,13 @@ This data pipeline is a crucial component of another project, [GoodCase](https:/
 - **Containerization:** Docker, AWS ECR, AWS ECS
 - **Version Control:** Git, GitHub
 
-## 🌐 Website
+## Website
 
 The data pipeline powers the backend of the [GoodCase](https://github.com/GlZM0/GoodCase) website, designed to provide users with insights from the processed data. Below are the details:
 
 https://good-case.vercel.app/
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 ### Prerequisites:
 - Python 3.12.x	
@@ -66,6 +66,6 @@ https://good-case.vercel.app/
 - Docker
 - MongoDB Atlas
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
