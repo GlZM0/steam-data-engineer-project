@@ -15,7 +15,7 @@
 
 This project involves building a highly available and scalable data pipeline on AWS to fetch raw data from the Steam API, transform it, and store it in a database. The processed data is then loaded into AWS Athena for analysis. The project uses a variety of AWS services to ensure efficiency, scalability, and reliability.
 
-This data pipeline is a crucial component of another project, [GoodCase](https://github.com/GlZM0/GoodCase), which is a CS gambling website built using Svelte and SvelteKit. The data is processed and uploaded to MongoDB Atlas daily because the data pipeline operates as a batch application.
+This data pipeline is a crucial component of another project, [GoodCase](https://github.com/gizmo19/GoodCase), which is a CS gambling website built using Svelte and SvelteKit. The data is processed and uploaded to MongoDB Atlas daily because the data pipeline operates as a batch application.
 
 ## Architecture
 
@@ -51,7 +51,7 @@ This data pipeline is a crucial component of another project, [GoodCase](https:/
 
 ## Website
 
-The data pipeline powers the backend of the [GoodCase](https://github.com/GlZM0/GoodCase) website, designed to provide users with insights from the processed data. Below are the details:
+The data pipeline powers the backend of the [GoodCase](https://github.com/gizmo19/GoodCase) website, designed to provide users with insights from the processed data. Below are the details:
 
 https://good-case.vercel.app/
 
