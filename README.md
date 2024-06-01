@@ -45,7 +45,7 @@ This data pipeline is a crucial component of another project, [GoodCase](https:/
 - **Programming Languages:** Python, SQL
 - **Data Ingestion and Processing:** AWS Lambda, AWS Batch
 - **Data Storage:** Amazon S3, MongoDB Atlas
-- **Data Querying:** AWS Athena
+- **Data Querying and Presentation:** AWS Athena, AWS QuickSight
 - **Containerization:** Docker, AWS ECR, AWS ECS
 - **Version Control:** Git, GitHub
 
