@@ -25,7 +25,6 @@ This data pipeline is a crucial component of another project, [GoodCase](https:/
 - **Processing Layer:** Data is transformed using AWS Lambda and stored in S3 Bucket.
 - **Query Layer:** Data is queried using AWS Athena.
 - **Storage Layer:** Update of the MongoDB Atlas (US Availability Zone) by the transformed data.
-- **Availability:** The API is deployed in one Availability Zone in Europe for high availability.
 
 ## Data Pipeline
 
