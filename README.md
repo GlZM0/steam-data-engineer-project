@@ -50,7 +50,7 @@ This data pipeline is a crucial component of another project, [GoodCase](https:/
 
 ## Website
 
-The data pipeline powers the backend of the [GoodCase](https://github.com/gizmo19/GoodCase) website, designed to provide users with insights from the processed data. Below are the details:
+The data pipeline powers the backend of the [GoodCase](https://github.com/gizmo19/GoodCase) website.
 
 https://good-case.vercel.app/
 
