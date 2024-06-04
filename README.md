@@ -28,7 +28,7 @@ This data pipeline is a crucial component of another project, [GoodCase](https:/
 
 ## Data Pipeline
 
-![Architecture Diagram](Project_Diagram.png)
+![Architecture Diagram](diagram.png)
 
 ### The data pipeline consists of the following steps:
 
